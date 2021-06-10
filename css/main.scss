@@ -89,12 +89,16 @@ section {
 .hero {
     text-align: center;
     padding: 15em 0;
-    background-color: pink;
+    background-color: #333;
     background-image: url(../image/hero-bg1.jpg);
+    background-blend-mode: multiply;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center center;
+    // background-position: center center;
+    
+
 }
+
 
 .featured {
     background: #eee;
@@ -151,5 +155,8 @@ section {
     & > * {
         flex-basis: 25%;
         min-width: 15em;
+    }
+    .product__image{
+        margin: auto;
     }
 }

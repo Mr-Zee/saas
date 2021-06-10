@@ -100,11 +100,11 @@ section {
 .hero {
   text-align: center;
   padding: 15em 0;
-  background-color: pink;
+  background-color: #333;
   background-image: url(../image/hero-bg1.jpg);
+  background-blend-mode: multiply;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: center center;
 }
 
 .featured {
@@ -175,5 +175,9 @@ section {
   -ms-flex-preferred-size: 25%;
       flex-basis: 25%;
   min-width: 15em;
+}
+
+.cards .product__image {
+  margin: auto;
 }
 /*# sourceMappingURL=main.css.map */
